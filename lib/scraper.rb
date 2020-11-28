@@ -10,7 +10,7 @@ class Scraper
 
   def catch_em_all
     self.all_pokemon = parsed_file.css(".infocard-tall")
-  end
+  end 
 
   def get_pokemon_name_from(node)
     node.css(".ent-name").text
